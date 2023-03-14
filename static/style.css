@@ -1,0 +1,17 @@
+body {
+    background: lightyellow; /*меняем фоновый цвет и шрифт без засечек*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*шрифт без засечек*/
+}
+.container {
+    width: 400px; /*ширина нашего блока*/
+    margin: 0 auto; /*Что бы выравнивался по центру*/
+}
+.container h1 {
+    text-align: center;
+}
+.container form, .container h2 {
+    background: greenyellow;
+    padding: 20px;
+    box-sizing: border-box; /*К padding сразу же добавляем что бы ширина блока не расширялась.*/
+    border-radius: 6px;
+}
